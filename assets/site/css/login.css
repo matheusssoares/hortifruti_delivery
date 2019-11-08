@@ -1,0 +1,85 @@
+body {
+	background-color: #45bf61;
+}
+.content-div{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-login {
+	background-color: #FFF;
+	width: 450px;
+	height: auto;
+	border: 2px solid #CCC;
+
+}
+.img_login {
+	margin-top: 10px;
+	position: relative;
+    left: 48%;
+    transform: translate(-48%);
+}
+.btn-criar{
+	float: right;
+    text-align: center;
+    letter-spacing: .5px;
+    width: 200px;
+}
+button#btn-entrar{
+	width: 200px;
+	background-color: #009688;
+	color: #FFF;
+}
+button#btn-entrar:hover{
+	background-color: #24b5a6;
+}
+.link-esqueci{
+	color: #009688;
+}
+.link-home {
+	color: #F44336;
+	font-weight: bold;
+}
+#toast-container {
+  top: auto !important;
+  right: 2%;
+  bottom: 5%;
+  left:auto !important;
+}
+@media (max-width:480px){
+	p.center-align {
+		font-size: 15px;
+	}
+	.card-login {
+		width: 450px;
+	}
+	.img_login {		
+	    left: 49%;
+	    transform: translate(-49%);
+	}
+}
+@media (max-width: 320px){
+	p.center-align {
+		font-size: 12px;
+	}
+	.card-login {
+		margin-top: 70px;
+		margin-bottom: 25px;
+		width: 100%;
+	}
+	.img_login {
+		height: 70px;
+		width: 70px;		
+	    left: 49%;
+	    transform: translate(-49%);
+	}
+	.link-esqueci {
+		font-size: 12px;
+		text-align: center;
+	}
+	.link-home {
+		font-size: 12px;
+		text-align: center;
+	}
+}

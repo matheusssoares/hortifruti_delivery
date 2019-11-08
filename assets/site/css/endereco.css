@@ -1,0 +1,98 @@
+body{
+	background-color: #F5F5F5;
+}
+nav .nav-wrapper {
+	background-color: #2BBBAD;
+}
+li.bem-vindo{
+	padding-top:20px; 
+}
+li.bem-vindo a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+
+}
+.content-div{
+	position: relative;
+	margin: 30px;
+	width: 90%;
+}
+.card-login {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	width: 550px;
+	height: auto;
+	border: 2px solid #CCC;
+}
+i.font-icon {
+	font-size: 7.5em;
+	color: #2BBBAD;
+}
+.btn-criar{
+	float: right;
+    text-align: center;
+    letter-spacing: .5px;
+    width: 240px;
+}
+button#btn-entrar{
+	width: 240px;
+	background-color: #009688;
+	color: #FFF;
+}
+button#btn-entrar:hover{
+	background-color: #24b5a6;
+}
+#toast-container {
+  top: auto !important;
+  right: 2%;
+  bottom: 5%;
+  left:auto !important;
+}
+@media (max-width: 480px){
+	.content-div{
+		position: relative;
+		margin: 10px;
+		width: 95%;
+	}
+	.card-login {
+		width: 400px;
+	}
+	i.font-icon {
+		font-size: 6.5em;
+	}
+	p.center-align {
+		font-size: 15px;
+	}
+	.btn-criar{
+	    width: 160px;
+	}
+	button#btn-entrar{
+		width: 160px;
+	}
+}
+@media (max-width: 320px){
+	.content-div{
+		position: relative;
+		margin: 10px;
+		width: 95%;
+	}
+	.card-login {
+		width: 280px;
+	}
+	i.font-icon {
+		font-size: 4.5em;
+	}
+	p.center-align {
+		font-size: 11px;
+	}
+	.btn-criar{
+	    width: 240px;
+	    top: 36px;
+	    left: 6px;
+	}
+	button#btn-entrar{
+		width: 240px;
+	}
+}

@@ -1,0 +1,65 @@
+body {
+	background-color: #45bf61;
+}
+.content-div{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-login {
+	background-color: #FFF;
+	width: 450px;
+	height: auto;
+	border: 2px solid #CCC;
+}
+i.font-icon {
+	font-size: 12.5em;
+	color: #2BBBAD;
+}
+.btn-criar{
+	float: right;
+    text-align: center;
+    letter-spacing: .5px;
+    width: 200px;
+}
+button#btn-entrar{
+	width: 200px;
+	background-color: #009688;
+	color: #FFF;
+}
+button#btn-entrar:hover{
+	background-color: #24b5a6;
+}
+#toast-container {
+  top: auto !important;
+  right: 2%;
+  bottom: 5%;
+  left:auto !important;
+}
+
+@media (max-width: 480px){
+	.card-login{
+		width: 450px;
+	}
+	.btn-criar{
+		top: -36px;
+	}
+}
+@media (max-width: 320px){
+	.card-login{
+		width: 100%;
+		margin-top: 70px;
+		margin-bottom: 25px;
+	}
+	i.font-icon {
+		font-size: 7.5em;
+		color: #2BBBAD;
+	}
+	p.center-align{
+		font-size: 12px;
+	}
+	.btn-criar{
+		top: 7px;
+	}
+}
